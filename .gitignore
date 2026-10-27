@@ -1,0 +1,44 @@
+# Dart and Flutter
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+**/ephemeral/
+
+# Android local state and build output
+android/.gradle/
+android/local.properties
+android/key.properties
+android/captures/
+android/.cxx/
+*.apk
+*.aab
+
+# Apple platform dependencies and local state
+**/Pods/
+**/.symlinks/
+
+# Secrets and signing credentials
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.p8
+*.mobileprovision
+*.provisionprofile
+*service-account*.json
+*credentials*.json
+
+# IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+.vscode/*.log
